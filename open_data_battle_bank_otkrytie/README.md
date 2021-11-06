@@ -4,8 +4,7 @@
 Необходимо обучить модель прогнозирования ошибки (MPP) модели оценки вероятности дефолта (PD модель). Таргетом является абсолютная разность предсказания модели ( PD верояность [0,1]) и реального лейбла flg_90_12_add (1 - дефолт, 0 -не дефолт).
 Датасет содержит 82617 наблюдений и 1908 признаков, все признаки зашифрованы.
 
-### Решение 
-* [ноутбук] (https://github.com/MokryYezhik/ds_ml_projects/blob/main/open_data_battle_bank_otkrytie/main_task/odb_main.ipynb)
+### Решение [ноутбук] (https://github.com/MokryYezhik/ds_ml_projects/blob/main/open_data_battle_bank_otkrytie/main_task/odb_main.ipynb)
 * удаление признаков с большим количестовом NaN
 * удаление признаков с низкими весами (осталось 100)
 * преобразование таргета (log, boxcox)
