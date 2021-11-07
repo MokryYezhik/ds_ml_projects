@@ -1,6 +1,6 @@
 # Основное задание (2021.10.30-2021.1031  24ч)
 
-ноутбук с решением: `[odb_main](https://github.com/MokryYezhik/ds_ml_projects/blob/main/open_data_battle_bank_otkrytie/main_task/odb_main.ipynb)`
+ноутбук с решением: [odb_main](https://github.com/MokryYezhik/ds_ml_projects/blob/main/open_data_battle_bank_otkrytie/main_task/odb_main.ipynb)
 
 ### Задание
 Необходимо обучить модель прогнозирования ошибки (MPP) модели оценки вероятности дефолта (PD модель). Таргетом является абсолютная разность предсказания модели ( PD верояность [0,1]) и реального лейбла flg_90_12_add (1 - дефолт, 0 -не дефолт).
